@@ -1,6 +1,21 @@
 * {
     font-family: 'Times New Roman', Times, serif;
 }
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+
+}
+
+.container-header{
+    
+    height: 60px;
+    width: 100%;
+    display: flex;
+    background-color: royalblue;
+
+}
 
 header  {
 background-color: royalblue;
@@ -13,8 +28,8 @@ margin-top: -8px;
 }
 
 .logo{
-    height:100% ;
-    width:15% ;
+    height: 50px ;
+    width: 50px; 
     display: flex;
     text-align:center ;
     place-content: center;
