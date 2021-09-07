@@ -1,2 +1,0 @@
-# pagina-web
-clases frontend
