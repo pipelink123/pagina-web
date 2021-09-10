@@ -149,21 +149,25 @@ animation-name: fade;
 animation-duration: 1.5s;
  }
 
+ .grid-item{
+     padding: 20px;
+     font-size: 30px;
+     text-align: center;
+     height: 250px;
+     width: 90;
+ }
+
  .grid-container{
     margin-top: 33%;
     display: grid;
     grid-template-columns: auto  auto  auto;
-   
     padding:10px;
     text-align: center;
-    border-radius: 50px;
     }
     
     .grid-item img {
        height: inherit;
        width: inherit;
-       cursor: pointer;
-       transform: scale3d(1.2);
     }
 
     .grid-item:hover img, .grid-item:focus img{
