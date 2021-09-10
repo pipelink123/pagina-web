@@ -72,7 +72,7 @@ align-self: center;
 }  
 
 .slideshow-container{
-    max-width: 500px;
+    max-width: 850px;
     position: relative;
     margin: auto;
     top: 330px;
@@ -106,30 +106,38 @@ border-radius: 3px 0 0 3px;
 }
 
 .text{
-    font-size: 15px;
+    font-size: 25px;
     padding: 8px 12px;
     position: abulute;
     bottom: 8px;
     width: 100%;
     text-align: center;
+    font-family: cursive;
 }
 
 .numbertext{
-    font-size: 10px;
+    font-size: 20px;
     padding: 8px 12px;
-    position: absolute;
+    position: auto;
     top: 0;
+    font-family: cursive;
 }
 
 .dot{
 cursor: pointer;
 height: 15px;
 width: 15px; 
-margin: 0 2px;
 background-color: #bbb ;
 display: inline-block;
 border-radius: 50%;
 transition: background-color 0.6s ease;
+position: relative;
+align-content: center;
+left: 350px;
+margin: 0 20px;
+
+
+
 
 }
 
