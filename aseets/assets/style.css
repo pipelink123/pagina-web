@@ -72,10 +72,11 @@ align-self: center;
 }  
 
 .slideshow-container{
-    margin-top: 25%;
-    max-width: 1000px;
+    max-width: 500px;
     position: relative;
     margin: auto;
+    top: 330px;
+    
 }
 
 .mySlides{
