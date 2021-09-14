@@ -1,8 +1,24 @@
 * {
     font-family: 'Times New Roman', Times, serif;
+    overflow: hidden;
+
+}
+
+.container-body{
+width: 100%;
+background-color: white;
+}
+
+body{
+    overflow: auto;
+    height: 100vh;
+    background-image: url(images/6.jpg);
+    background-repeat: no-repeat;
+    background-attachment: inherit;
+    margin: auto;
 }
 .container{
-    height: 100%;
+    height:60%;
     width: 100%;
     display: flex;
 
@@ -11,7 +27,7 @@
 .container-header{
 
     height: 60px;
-    width: 100%;
+    width: 99.33%;
     display: flex;
     background-color: royalblue;
 
@@ -25,7 +41,7 @@ height: 50%;
 width: 100%;
 margin-left: -8px;
 margin-top: -8px;
-background-image: url(images/6.jpg);
+
 
 }
 
@@ -72,10 +88,10 @@ align-self: center;
 }  
 
 .slideshow-container{
-    max-width: 850px;
+    max-width: 1000px;
     position: relative;
     margin: auto;
-    top: 330px;
+    width: 40%;
     
 }
 
@@ -106,13 +122,14 @@ border-radius: 3px 0 0 3px;
 }
 
 .text{
-    font-size: 25px;
+    font-size: 30px;
     padding: 8px 12px;
     position: abulute;
     bottom: 8px;
     width: 100%;
     text-align: center;
     font-family: cursive;
+    color: snow;
 }
 
 .numbertext{
@@ -158,7 +175,6 @@ animation-duration: 1.5s;
  }
 
  .grid-container{
-    margin-top: 33%;
     display: grid;
     grid-template-columns: auto  auto  auto;
     padding:10px;
